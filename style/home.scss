@@ -43,7 +43,7 @@ $appstorebuttons: #045B62;
                             a {
                                 text-decoration: none;
                                 color: white;
-                                font-size: 1.4vw;
+                                font-size: 1.3vw;
                             }
                             #signup {
                                 background-color: white;
@@ -66,6 +66,10 @@ $appstorebuttons: #045B62;
                         height: 100vh;
                         .logo {
                             display: none;
+                        }
+                        .avatar {
+                            // margin: 0 0 0 5vw;
+                            padding: 15vh 0 0 8vw;
                         }
                     }
                     .what {
@@ -113,7 +117,7 @@ $appstorebuttons: #045B62;
                     display: flex;
                     justify-content: space-between;
                     .menu {
-                        padding: 10vw;
+                        padding: 5vw;
                     }
                     .logo {
                         display: none;

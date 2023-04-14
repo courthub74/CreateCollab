@@ -36,7 +36,7 @@
   * body .container nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
   }
   * body .container nav ul li #signup {
     background-color: white;
@@ -56,6 +56,9 @@
   }
   * body .container main .header .logo {
     display: none;
+  }
+  * body .container main .header .avatar {
+    padding: 15vh 0 0 8vw;
   }
   * body .container main .what {
     background-color: #E1F2E1;
@@ -101,7 +104,7 @@
             justify-content: space-between;
   }
   * body .container nav .menu {
-    padding: 10vw;
+    padding: 5vw;
   }
   * body .container nav .logo {
     display: none;
