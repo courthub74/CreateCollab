@@ -1,0 +1,166 @@
+// IMPORTED FONTS
+
+// INTER
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700');
+
+// COLORS
+
+$homegreen: #104D49;
+$fontwhite: #E1F2E1;
+
+$navbargreen: #014931;
+
+$appstorebuttons: #045B62;
+
+// DESKTOP
+@media screen and (min-width: 1000px) {
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        body {
+            .container {
+                nav {
+                    background-color: $navbargreen;
+                    color: white;
+                    display: flex;
+                    justify-content: space-between;
+                    .menu {
+                        display: none;
+                    }
+                    .logo {
+                        padding: 2em;
+                        img {
+                            height: 3vh;
+                        }
+                    }
+                    ul {
+                        padding: 2em;
+                        li {
+                            display: inline;
+                            list-style: none;
+                            font-family: 'Inter', sans-serif;
+                            padding: 1.5vw;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-size: 1.4vw;
+                            }
+                            #signup {
+                                background-color: white;
+                                color: $navbargreen;
+                                padding: .5em;
+                                border-radius: 5px;
+                            }
+                            #login {
+                                border: 1px solid white;
+                                padding: .5em;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+                main {
+                    .header {
+                        background-color: $homegreen;
+                        color: $fontwhite;
+                        height: 100vh;
+                        .logo {
+                            display: none;
+                        }
+                    }
+                    .what {
+                        background-color: $fontwhite;
+                        color: $homegreen;
+                        height: 100vh;
+                    }
+                    .why {
+                        background-color: $homegreen;
+                        color: $fontwhite;
+                        height: 100vh;
+                    }
+                    .signup {
+                        background-color: $fontwhite;
+                        color: $homegreen;
+                        height: 100vh;
+                    }
+                    .howto {
+                        background-color: $homegreen;
+                        color: $fontwhite;
+                        height: 100vh;
+                    }
+                    footer {
+                        background-color: $navbargreen;
+                        color: $fontwhite;
+                        height: 50vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//SMARTPHONE
+
+@media screen and (max-width: 500px) {
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        body {
+            .container {
+                nav {
+                    background-color: $navbargreen;
+                    color: white;
+                    display: flex;
+                    justify-content: space-between;
+                    .menu {
+                        padding: 10vw;
+                    }
+                    .logo {
+                        display: none;
+                    }
+                    ul {
+                        display: none;
+                    }
+                }
+                main {
+                    .header {
+                        background-color: $homegreen;
+                        color: $fontwhite;
+                        height: 100vh;
+                        .logo {
+                            display: flex;
+                            justify-content: center;
+                            padding: 6vh 0 0 0;
+                            // margin: 2vh 0 0 0;
+                        }
+                    }
+                    .what {
+                        background-color: $fontwhite;
+                        color: $homegreen;
+                        height: 100vh;
+                    }
+                    .why {
+                        background-color: $homegreen;
+                        color: $fontwhite;
+                        height: 100vh;
+                    }
+                    .signup {
+                        background-color: $fontwhite;
+                        color: $homegreen;
+                        height: 100vh;
+                    }
+                    .howto {
+                        background-color: $homegreen;
+                        color: $fontwhite;
+                        height: 100vh;
+                    }
+                    footer {
+                        background-color: $navbargreen;
+                        color: $fontwhite;
+                        height: 50vh;
+                    }
+                }
+            }
+        }
+    }
+}

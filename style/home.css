@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700");
+@media screen and (min-width: 1000px) {
+  * {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  * body .container nav {
+    background-color: #014931;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  * body .container nav .menu {
+    display: none;
+  }
+  * body .container nav .logo {
+    padding: 2em;
+  }
+  * body .container nav .logo img {
+    height: 3vh;
+  }
+  * body .container nav ul {
+    padding: 2em;
+  }
+  * body .container nav ul li {
+    display: inline;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    padding: 1.5vw;
+  }
+  * body .container nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4vw;
+  }
+  * body .container nav ul li #signup {
+    background-color: white;
+    color: #014931;
+    padding: .5em;
+    border-radius: 5px;
+  }
+  * body .container nav ul li #login {
+    border: 1px solid white;
+    padding: .5em;
+    border-radius: 5px;
+  }
+  * body .container main .header {
+    background-color: #104D49;
+    color: #E1F2E1;
+    height: 100vh;
+  }
+  * body .container main .header .logo {
+    display: none;
+  }
+  * body .container main .what {
+    background-color: #E1F2E1;
+    color: #104D49;
+    height: 100vh;
+  }
+  * body .container main .why {
+    background-color: #104D49;
+    color: #E1F2E1;
+    height: 100vh;
+  }
+  * body .container main .signup {
+    background-color: #E1F2E1;
+    color: #104D49;
+    height: 100vh;
+  }
+  * body .container main .howto {
+    background-color: #104D49;
+    color: #E1F2E1;
+    height: 100vh;
+  }
+  * body .container main footer {
+    background-color: #014931;
+    color: #E1F2E1;
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  * {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  * body .container nav {
+    background-color: #014931;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  * body .container nav .menu {
+    padding: 10vw;
+  }
+  * body .container nav .logo {
+    display: none;
+  }
+  * body .container nav ul {
+    display: none;
+  }
+  * body .container main .header {
+    background-color: #104D49;
+    color: #E1F2E1;
+    height: 100vh;
+  }
+  * body .container main .header .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 6vh 0 0 0;
+  }
+  * body .container main .what {
+    background-color: #E1F2E1;
+    color: #104D49;
+    height: 100vh;
+  }
+  * body .container main .why {
+    background-color: #104D49;
+    color: #E1F2E1;
+    height: 100vh;
+  }
+  * body .container main .signup {
+    background-color: #E1F2E1;
+    color: #104D49;
+    height: 100vh;
+  }
+  * body .container main .howto {
+    background-color: #104D49;
+    color: #E1F2E1;
+    height: 100vh;
+  }
+  * body .container main footer {
+    background-color: #014931;
+    color: #E1F2E1;
+    height: 50vh;
+  }
+}
+/*# sourceMappingURL=home.css.map */
