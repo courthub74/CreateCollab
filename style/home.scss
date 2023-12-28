@@ -17,6 +17,7 @@ $appstorebuttons: #045B62;
     * {
         margin: 0;
         box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
         body {
             .container {
                 nav {
@@ -64,12 +65,31 @@ $appstorebuttons: #045B62;
                         background-color: $homegreen;
                         color: $fontwhite;
                         height: 100vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
                         .logo {
                             display: none;
                         }
                         .avatar {
                             // margin: 0 0 0 5vw;
                             padding: 15vh 0 0 8vw;
+                        }
+                        .headertext {
+                            font-size: 1.6vw;
+                        }
+                        .input {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 1.5vw;
+                            margin: 2vh 0 0 -12vw;
+                        }
+                        #firstname {
+                            background-color: $homegreen;
+                            border: 2px solid $fontwhite;
+                            border-radius: 10px;
+                            width: 20vw;
+                            height: 2vw;
                         }
                     }
                     .what {
@@ -105,25 +125,39 @@ $appstorebuttons: #045B62;
 
 //SMARTPHONE
 
-@media screen and (max-width: 500px) {
+@media only screen and (orientation: portrait) {
     * {
         margin: 0;
         box-sizing: border-box;
         body {
             .container {
-                nav {
+                .nav_section {
                     background-color: $navbargreen;
                     color: white;
                     display: flex;
                     justify-content: space-between;
-                    .menu {
-                        padding: 5vw;
-                    }
-                    .logo {
-                        display: none;
-                    }
-                    ul {
-                        display: none;
+                    position: sticky;
+                    top: 0;
+                    width: 100%;
+                    z-index: 98;
+                    nav {
+                        .menu {
+                            padding: 5vw;
+                        }
+                        .logo {
+                            display: none;
+                            height: 1vh;
+                            width: 1vw;
+                            // background-color: yellow;
+                            img {
+                                height: 1vh;
+                                // background-color: yellow;
+                                // width: 3vh;
+                            }
+                        }
+                        ul {
+                            display: none;
+                        }
                     }
                 }
                 main {
@@ -131,11 +165,32 @@ $appstorebuttons: #045B62;
                         background-color: $homegreen;
                         color: $fontwhite;
                         height: 100vh;
+                        margin: 0vh 0 0 0;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        // background-color: yellow;
                         .logo {
                             display: flex;
                             justify-content: center;
-                            padding: 6vh 0 0 0;
-                            // margin: 2vh 0 0 0;
+                            padding: 0vh 0 0 0;
+                            // background-color: yellow;
+                            margin: -55vh 0 0 0;
+                        }
+                        .headertext {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 3.5vw;
+                        }
+                        .input {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 5vw;
+                            margin: 2vh 0 0 -14vw;
+                        }
+                        #firstname {
+                            background-color: $homegreen;
+                            border: 2px solid $fontwhite;
+                            border-radius: 10px;
                         }
                     }
                     .what {
